@@ -15,8 +15,6 @@ linux-cpu,Linux · CLI,Intel Core i7-13700F (x86_64),essence-2,2.0,true,false,CL
 linux-cpu,Linux · CLI,Intel Core i7-13700F (x86_64),expression-2,2.2,true,false,CLI 2.8.1,2026-09-27,28.42
 python-linux,Linux · Python,Intel Core i7-13700F (x86_64),essence-2,1.96,true,false,bithuman 2.11.13,2026-09-26,28.42
 python-linux,Linux · Python,Intel Core i7-13700F (x86_64),expression-2,2.35,true,false,bithuman 2.11.13,2026-09-26,28.42
-python-windows,Windows · Python,"Intel Core i7-13700F (x86_64), 8 threads",essence-2,1.2,true,false,bithuman 2.11.18,2026-09-29,28.42
-python-windows,Windows · Python,"Intel Core i7-13700F (x86_64), 8 threads",expression-2,1.05,true,false,bithuman 2.11.18,2026-09-29,28.42
 iphone-15,iPhone · Swift package,iPhone 15,essence-2,2.16,true,false,Swift package 2.17.3,2026-09-27,28.42
 iphone-15,iPhone · Swift package,iPhone 15,expression-2,5.55,true,false,Swift package 2.18.0,2026-09-27,16.285
 android-s25plus,Android,Samsung Galaxy S25+,essence-2,2.08,true,false,essence2-android 0.7.0,2026-09-25,16.285

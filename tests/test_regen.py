@@ -110,3 +110,14 @@ class RepoDataTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class HiddenRowsTest(unittest.TestCase):
+    def test_hidden_rows_are_left_out(self):
+        perf = {"schema": 1, "rows": [
+            {"id": "python-windows", "published": True, "cells": {"expression-2": {"x_realtime": 1.05}}},
+            {"id": "cli-linux", "published": True, "cells": {"expression-2": {"x_realtime": 2.2}}},
+        ]}
+        ids = {r["row_id"] for r in regen.csv_rows(perf)}
+        self.assertNotIn("python-windows", ids)
+        self.assertIn("python-windows", regen.HIDDEN_ROWS)

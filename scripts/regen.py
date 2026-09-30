@@ -27,6 +27,9 @@ COLUMNS = [
     "sustained", "release", "measured_on", "clip_seconds",
 ]
 REPO = Path(__file__).resolve().parent.parent
+# Rows withheld until their platform ships (bitHuman ruling 2026-09-30: native Windows stays
+# hidden until the Windows release lands; on Windows today the CLI and Python SDK run under WSL2).
+HIDDEN_ROWS = {"python-windows"}
 
 
 def fetch(source: str, timeout: float = 30.0) -> bytes:
@@ -59,7 +62,7 @@ def csv_rows(perf: dict) -> list[dict]:
     """One row per published (configuration, model) cell, in source order."""
     out = []
     for row in perf["rows"]:
-        if not row.get("published", False):
+        if not row.get("published", False) or row.get("id") in HIDDEN_ROWS:
             continue
         for model, cell in (row.get("cells") or {}).items():
             if not cell or cell.get("x_realtime") is None:

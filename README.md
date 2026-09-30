@@ -33,7 +33,6 @@ Generated from `data/performance.csv` (source file generated 2026-09-29, fetched
 | macOS · Swift package | Apple M4 | 4.8× | 8.85× | Swift package 2.15.0 | 2026-09-24 |
 | Linux · CLI | Intel Core i7-13700F (x86_64) | 2.0× | 2.2× | CLI 2.8.1 | 2026-09-27 |
 | Linux · Python | Intel Core i7-13700F (x86_64) | 1.96× | 2.35× | bithuman 2.11.13 | 2026-09-26 |
-| Windows · Python | Intel Core i7-13700F (x86_64), 8 threads | 1.2× | 1.05× | bithuman 2.11.18 | 2026-09-29 |
 | iPhone · Swift package | iPhone 15 | 2.16× | 5.55× | Swift package 2.17.3 / Swift package 2.18.0 | 2026-09-27 |
 | Android | Samsung Galaxy S25+ | 2.08× | 2.4× | essence2-android 0.7.0 / expression2-android 0.4.10 | 2026-09-23 to 2026-09-25 |
 | Web browser (WebGPU) | Chrome on Apple M4 | 1.72× | 1.95× | web viewer | 2026-09-27 |
