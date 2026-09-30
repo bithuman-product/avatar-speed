@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "generated": "2026-01-02",
+  "method": "fixture",
+  "page": "https://docs.bithuman.ai/performance",
+  "rows": [
+    {"id": "linux-cpu", "label": "Linux · CLI", "hardware": "Test CPU, 8 threads", "published": true, "sustained": false,
+     "cells": {
+       "essence-2": {"fps": 50, "x_realtime": 2.0, "realtime": true, "measured_on": "2026-01-01", "release": "CLI 1.0.0", "clip": {"id": "a", "seconds": 28.42}},
+       "expression-2": null
+     }},
+    {"id": "hidden", "label": "Unpublished", "hardware": "x", "published": false, "sustained": false,
+     "cells": {"essence-2": {"x_realtime": 9.9, "realtime": true, "measured_on": "2026-01-01", "release": "r", "clip": {"seconds": 1}}}},
+    {"id": "phone-sustained", "label": "Phone · held 10 min", "hardware": "Test Phone", "published": true, "sustained": true,
+     "cells": {"expression-2": {"x_realtime": 1.05, "realtime": true, "measured_on": "2026-01-01", "release": "sdk 0.1", "clip": {"id": "b", "seconds": 16.285}}}}
+  ]
+}

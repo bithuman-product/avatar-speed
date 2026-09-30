@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below, with the row, device, release and date."
+type: dataset
+title: "avatar-speed: real-time avatar render speed by device"
+abstract: >-
+  Seconds of avatar video rendered per second (× real time), end to end from speech audio in to
+  frame out, one session, unpaced; each figure is the slowest of three quiet runs on the published
+  release. Copied from https://docs.bithuman.ai/performance.json.
+authors:
+  - name: "bitHuman Team"
+date-released: "2026-09-29"
+url: "https://docs.bithuman.ai/performance"
+license: CC-BY-4.0
+keywords:
+  - avatar
+  - real-time rendering
+  - benchmark
+  - lip-sync

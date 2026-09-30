@@ -1,0 +1,731 @@
+{
+  "source_url": "https://docs.bithuman.ai/performance.json",
+  "method_url": "https://docs.bithuman.ai/performance/method",
+  "fetched": "2026-09-30",
+  "generated": "2026-09-29",
+  "sha256": "36bb28359fa5417476728de573c82a61200484d8ba2068a925d139b578a38052",
+  "performance": {
+    "schema": 1,
+    "generated": "2026-09-29",
+    "models": {
+      "essence-2": {
+        "fps": 25.0,
+        "width": 1920,
+        "height": 1080
+      },
+      "expression-2": {
+        "fps": 20.0,
+        "width": 416,
+        "height": 720
+      }
+    },
+    "method": "end-to-end audio in to frame out, one session, unpaced; the slowest of three quiet runs at least ten minutes apart on the published release",
+    "page": "https://docs.bithuman.ai/performance",
+    "rows": [
+      {
+        "id": "cloud-gpu",
+        "label": "Cloud API · GPU",
+        "hardware": "NVIDIA RTX 4090",
+        "published": true,
+        "sustained": false,
+        "cells": {
+          "essence-2": {
+            "fps": 104,
+            "x_realtime": 4.16,
+            "realtime": true,
+            "measured_on": "2026-09-27",
+            "release": "cloud API",
+            "clip": {
+              "id": "5639-40744-0031",
+              "seconds": 28.42
+            },
+            "peak_ram_gb": null,
+            "peak_gpu_gb": null,
+            "swap_gb": 1.02,
+            "memory_scope": "server",
+            "memory_release": null,
+            "time_to_video": null
+          },
+          "expression-2": {
+            "fps": 340,
+            "x_realtime": 17.0,
+            "realtime": true,
+            "measured_on": "2026-09-23",
+            "release": "cloud API",
+            "clip": {
+              "id": "5639-40744-0031",
+              "seconds": 28.42
+            },
+            "peak_ram_gb": null,
+            "peak_gpu_gb": null,
+            "swap_gb": 0.17,
+            "memory_scope": "server",
+            "memory_release": null,
+            "time_to_video": null
+          }
+        }
+      },
+      {
+        "id": "apple-serve",
+        "label": "Cloud API · Apple silicon",
+        "hardware": "Apple M4 Max",
+        "published": true,
+        "sustained": false,
+        "cells": {
+          "essence-2": {
+            "fps": 71,
+            "x_realtime": 2.84,
+            "realtime": true,
+            "measured_on": "2026-09-26",
+            "release": "cloud API",
+            "clip": {
+              "id": "5639-40744-0031",
+              "seconds": 28.42
+            },
+            "peak_ram_gb": null,
+            "peak_gpu_gb": null,
+            "swap_gb": 0.0,
+            "memory_scope": "server",
+            "memory_release": null,
+            "time_to_video": null
+          },
+          "expression-2": {
+            "fps": 111,
+            "x_realtime": 5.55,
+            "realtime": true,
+            "measured_on": "2026-09-23",
+            "release": "cloud API",
+            "clip": {
+              "id": "5639-40744-0031",
+              "seconds": 28.42
+            },
+            "peak_ram_gb": null,
+            "peak_gpu_gb": null,
+            "swap_gb": 0.18,
+            "memory_scope": "server",
+            "memory_release": null,
+            "time_to_video": null
+          }
+        }
+      },
+      {
+        "id": "cloud-cpu",
+        "label": "Cloud API · CPU",
+        "hardware": "x86 server CPU",
+        "published": true,
+        "sustained": false,
+        "cells": {
+          "essence-2": {
+            "fps": 28,
+            "x_realtime": 1.12,
+            "realtime": true,
+            "measured_on": "2026-09-25",
+            "release": "cloud API",
+            "clip": {
+              "id": "5639-40744-0031",
+              "seconds": 28.42
+            },
+            "peak_ram_gb": null,
+            "peak_gpu_gb": null,
+            "swap_gb": 0.0,
+            "memory_scope": "server",
+            "memory_release": null,
+            "time_to_video": null
+          },
+          "expression-2": {
+            "fps": 27,
+            "x_realtime": 1.35,
+            "realtime": true,
+            "measured_on": "2026-09-24",
+            "release": "cloud API",
+            "clip": {
+              "id": "5639-40744-0031",
+              "seconds": 28.42
+            },
+            "peak_ram_gb": null,
+            "peak_gpu_gb": null,
+            "swap_gb": 0.0,
+            "memory_scope": "server",
+            "memory_release": null,
+            "time_to_video": null
+          }
+        }
+      },
+      {
+        "id": "macos-m4",
+        "label": "macOS · CLI",
+        "hardware": "Apple M4",
+        "published": true,
+        "sustained": false,
+        "cells": {
+          "essence-2": {
+            "fps": 106,
+            "x_realtime": 4.24,
+            "realtime": true,
+            "measured_on": "2026-09-27",
+            "release": "CLI 2.8.1",
+            "clip": {
+              "id": "5639-40744-0031",
+              "seconds": 28.42
+            },
+            "peak_ram_gb": 1.01,
+            "peak_gpu_gb": null,
+            "swap_gb": null,
+            "memory_scope": "render",
+            "memory_release": "CLI 2.7.8",
+            "time_to_video": {
+              "clip_seconds": 10.0,
+              "first_run_s": 3.99,
+              "after_that_s": 4.85,
+              "measured_on": "2026-09-26",
+              "release": "CLI 2.7.8"
+            }
+          },
+          "expression-2": {
+            "fps": 168,
+            "x_realtime": 8.4,
+            "realtime": true,
+            "measured_on": "2026-09-27",
+            "release": "CLI 2.8.1",
+            "clip": {
+              "id": "5639-40744-0031",
+              "seconds": 28.42
+            },
+            "peak_ram_gb": 0.88,
+            "peak_gpu_gb": null,
+            "swap_gb": null,
+            "memory_scope": "render",
+            "memory_release": "CLI 2.7.8",
+            "time_to_video": null
+          }
+        }
+      },
+      {
+        "id": "python-macos",
+        "label": "macOS · Python",
+        "hardware": "Apple M4",
+        "published": true,
+        "sustained": false,
+        "cells": {
+          "essence-2": {
+            "fps": 174,
+            "x_realtime": 6.96,
+            "realtime": true,
+            "measured_on": "2026-09-25",
+            "release": "bithuman 2.11.12",
+            "clip": {
+              "id": "5639-40744-0031",
+              "seconds": 28.42
+            },
+            "peak_ram_gb": 1.21,
+            "peak_gpu_gb": null,
+            "swap_gb": null,
+            "memory_scope": "render",
+            "memory_release": "bithuman 2.11.12",
+            "time_to_video": null
+          },
+          "expression-2": {
+            "fps": 169,
+            "x_realtime": 8.45,
+            "realtime": true,
+            "measured_on": "2026-09-25",
+            "release": "bithuman 2.11.12",
+            "clip": {
+              "id": "5639-40744-0031",
+              "seconds": 28.42
+            },
+            "peak_ram_gb": 0.81,
+            "peak_gpu_gb": null,
+            "swap_gb": null,
+            "memory_scope": "render",
+            "memory_release": "bithuman 2.11.12",
+            "time_to_video": null
+          }
+        }
+      },
+      {
+        "id": "macos-sdk",
+        "label": "macOS · Swift package",
+        "hardware": "Apple M4",
+        "published": true,
+        "sustained": false,
+        "cells": {
+          "essence-2": {
+            "fps": 120,
+            "x_realtime": 4.8,
+            "realtime": true,
+            "measured_on": "2026-09-24",
+            "release": "Swift package 2.15.0",
+            "clip": {
+              "id": "5639-40744-0031",
+              "seconds": 28.42
+            },
+            "peak_ram_gb": null,
+            "peak_gpu_gb": null,
+            "swap_gb": null,
+            "memory_scope": null,
+            "memory_release": null,
+            "time_to_video": null
+          },
+          "expression-2": {
+            "fps": 177,
+            "x_realtime": 8.85,
+            "realtime": true,
+            "measured_on": "2026-09-24",
+            "release": "Swift package 2.15.0",
+            "clip": {
+              "id": "5639-40744-0031",
+              "seconds": 28.42
+            },
+            "peak_ram_gb": null,
+            "peak_gpu_gb": null,
+            "swap_gb": null,
+            "memory_scope": null,
+            "memory_release": null,
+            "time_to_video": null
+          }
+        }
+      },
+      {
+        "id": "linux-cpu",
+        "label": "Linux · CLI",
+        "hardware": "Intel Core i7-13700F (x86_64)",
+        "published": true,
+        "sustained": false,
+        "cells": {
+          "essence-2": {
+            "fps": 50,
+            "x_realtime": 2.0,
+            "realtime": true,
+            "measured_on": "2026-09-27",
+            "release": "CLI 2.8.1",
+            "clip": {
+              "id": "5639-40744-0031",
+              "seconds": 28.42
+            },
+            "peak_ram_gb": 2.18,
+            "peak_gpu_gb": null,
+            "swap_gb": 0.0,
+            "memory_scope": "render",
+            "memory_release": "CLI 2.7.8",
+            "time_to_video": null
+          },
+          "expression-2": {
+            "fps": 44,
+            "x_realtime": 2.2,
+            "realtime": true,
+            "measured_on": "2026-09-27",
+            "release": "CLI 2.8.1",
+            "clip": {
+              "id": "5639-40744-0031",
+              "seconds": 28.42
+            },
+            "peak_ram_gb": 1.64,
+            "peak_gpu_gb": null,
+            "swap_gb": 0.0,
+            "memory_scope": "render",
+            "memory_release": "CLI 2.7.8",
+            "time_to_video": null
+          }
+        }
+      },
+      {
+        "id": "python-linux",
+        "label": "Linux · Python",
+        "hardware": "Intel Core i7-13700F (x86_64)",
+        "published": true,
+        "sustained": false,
+        "cells": {
+          "essence-2": {
+            "fps": 49,
+            "x_realtime": 1.96,
+            "realtime": true,
+            "measured_on": "2026-09-26",
+            "release": "bithuman 2.11.13",
+            "clip": {
+              "id": "5639-40744-0031",
+              "seconds": 28.42
+            },
+            "peak_ram_gb": 1.0,
+            "peak_gpu_gb": null,
+            "swap_gb": 0.0,
+            "memory_scope": "render",
+            "memory_release": "bithuman 2.11.12",
+            "time_to_video": null
+          },
+          "expression-2": {
+            "fps": 47,
+            "x_realtime": 2.35,
+            "realtime": true,
+            "measured_on": "2026-09-26",
+            "release": "bithuman 2.11.13",
+            "clip": {
+              "id": "5639-40744-0031",
+              "seconds": 28.42
+            },
+            "peak_ram_gb": 1.5,
+            "peak_gpu_gb": null,
+            "swap_gb": 0.0,
+            "memory_scope": "render",
+            "memory_release": "bithuman 2.11.12",
+            "time_to_video": null
+          }
+        }
+      },
+      {
+        "id": "python-windows",
+        "label": "Windows · Python",
+        "hardware": "Intel Core i7-13700F (x86_64), 8 threads",
+        "published": true,
+        "sustained": false,
+        "cells": {
+          "essence-2": {
+            "fps": 30,
+            "x_realtime": 1.2,
+            "realtime": true,
+            "measured_on": "2026-09-29",
+            "release": "bithuman 2.11.18",
+            "clip": {
+              "id": "5639-40744-0031",
+              "seconds": 28.42
+            },
+            "peak_ram_gb": null,
+            "peak_gpu_gb": null,
+            "swap_gb": null,
+            "memory_scope": null,
+            "memory_release": null,
+            "time_to_video": null
+          },
+          "expression-2": {
+            "fps": 21,
+            "x_realtime": 1.05,
+            "realtime": true,
+            "measured_on": "2026-09-29",
+            "release": "bithuman 2.11.18",
+            "clip": {
+              "id": "5639-40744-0031",
+              "seconds": 28.42
+            },
+            "peak_ram_gb": null,
+            "peak_gpu_gb": null,
+            "swap_gb": null,
+            "memory_scope": null,
+            "memory_release": null,
+            "time_to_video": null
+          }
+        }
+      },
+      {
+        "id": "iphone-15",
+        "label": "iPhone · Swift package",
+        "hardware": "iPhone 15",
+        "published": true,
+        "sustained": false,
+        "cells": {
+          "essence-2": {
+            "fps": 54,
+            "x_realtime": 2.16,
+            "realtime": true,
+            "measured_on": "2026-09-27",
+            "release": "Swift package 2.17.3",
+            "clip": {
+              "id": "5639-40744-0031",
+              "seconds": 28.42
+            },
+            "peak_ram_gb": 0.88,
+            "peak_gpu_gb": null,
+            "swap_gb": null,
+            "memory_scope": "session",
+            "memory_release": "Swift engine 1.10.0",
+            "time_to_video": null
+          },
+          "expression-2": {
+            "fps": 111,
+            "x_realtime": 5.55,
+            "realtime": true,
+            "measured_on": "2026-09-27",
+            "release": "Swift package 2.18.0",
+            "clip": {
+              "id": "6829-68771-0007",
+              "seconds": 16.285
+            },
+            "peak_ram_gb": 0.49,
+            "peak_gpu_gb": null,
+            "swap_gb": null,
+            "memory_scope": "session",
+            "memory_release": "Swift package 2.14.1",
+            "time_to_video": null
+          }
+        }
+      },
+      {
+        "id": "android-s25plus",
+        "label": "Android",
+        "hardware": "Samsung Galaxy S25+",
+        "published": true,
+        "sustained": false,
+        "cells": {
+          "essence-2": {
+            "fps": 52,
+            "x_realtime": 2.08,
+            "realtime": true,
+            "measured_on": "2026-09-25",
+            "release": "essence2-android 0.7.0",
+            "clip": {
+              "id": "6829-68771-0007",
+              "seconds": 16.285
+            },
+            "peak_ram_gb": 0.95,
+            "peak_gpu_gb": null,
+            "swap_gb": 0.0,
+            "memory_scope": "render",
+            "memory_release": "essence2-android 0.7.0",
+            "time_to_video": null
+          },
+          "expression-2": {
+            "fps": 48,
+            "x_realtime": 2.4,
+            "realtime": true,
+            "measured_on": "2026-09-23",
+            "release": "expression2-android 0.4.10",
+            "clip": {
+              "id": "5683-32865-0012",
+              "seconds": 21.51
+            },
+            "peak_ram_gb": 2.31,
+            "peak_gpu_gb": null,
+            "swap_gb": 0.0,
+            "memory_scope": "render",
+            "memory_release": "expression2-android 0.5.0",
+            "time_to_video": null
+          }
+        }
+      },
+      {
+        "id": "web",
+        "label": "Web browser (WebGPU)",
+        "hardware": "Chrome on Apple M4",
+        "published": true,
+        "sustained": false,
+        "cells": {
+          "essence-2": {
+            "fps": 43,
+            "x_realtime": 1.72,
+            "realtime": true,
+            "measured_on": "2026-09-27",
+            "release": "web viewer",
+            "clip": {
+              "id": "5639-40744-0031",
+              "seconds": 28.42
+            },
+            "peak_ram_gb": 2.99,
+            "peak_gpu_gb": null,
+            "swap_gb": null,
+            "memory_scope": "render",
+            "memory_metric": "Chrome tab memory footprint",
+            "memory_release": null,
+            "time_to_video": null
+          },
+          "expression-2": {
+            "fps": 39,
+            "x_realtime": 1.95,
+            "realtime": true,
+            "measured_on": "2026-09-27",
+            "release": "web viewer",
+            "clip": {
+              "id": "5639-40744-0031",
+              "seconds": 28.42
+            },
+            "peak_ram_gb": 1.75,
+            "peak_gpu_gb": null,
+            "swap_gb": null,
+            "memory_scope": "render",
+            "memory_metric": "Chrome tab memory footprint",
+            "memory_release": null,
+            "time_to_video": null
+          }
+        }
+      },
+      {
+        "id": "iphone-15-sustained",
+        "label": "iPhone · Swift package · held 10 min",
+        "hardware": "iPhone 15",
+        "published": true,
+        "sustained": true,
+        "cells": {
+          "essence-2": {
+            "fps": 33,
+            "x_realtime": 1.32,
+            "realtime": true,
+            "measured_on": "2026-09-25",
+            "release": "Swift package 2.15.0",
+            "clip": {
+              "id": "5639-40744-0031",
+              "seconds": 28.42
+            },
+            "peak_ram_gb": null,
+            "peak_gpu_gb": null,
+            "swap_gb": null,
+            "memory_scope": null,
+            "memory_release": null,
+            "time_to_video": null,
+            "held": {
+              "median_window_fps": 33.95,
+              "worst_window_fps": 31.97,
+              "sessions": 4
+            }
+          },
+          "expression-2": {
+            "fps": 103,
+            "x_realtime": 5.15,
+            "realtime": true,
+            "measured_on": "2026-09-25",
+            "release": "Swift package 2.15.0",
+            "clip": {
+              "id": "6829-68771-0007",
+              "seconds": 16.285
+            },
+            "peak_ram_gb": null,
+            "peak_gpu_gb": null,
+            "swap_gb": null,
+            "memory_scope": null,
+            "memory_release": null,
+            "time_to_video": null,
+            "held": {
+              "median_window_fps": 103.85,
+              "worst_window_fps": 100.27,
+              "sessions": 4
+            }
+          }
+        }
+      },
+      {
+        "id": "android-s25plus-sustained",
+        "label": "Android · held 10 min",
+        "hardware": "Samsung Galaxy S25+",
+        "published": true,
+        "sustained": true,
+        "cells": {
+          "essence-2": {
+            "fps": 37,
+            "x_realtime": 1.48,
+            "realtime": true,
+            "measured_on": "2026-09-27",
+            "release": "essence2-android 0.8.1",
+            "clip": {
+              "id": "5639-40744-0031",
+              "seconds": 28.42
+            },
+            "peak_ram_gb": null,
+            "peak_gpu_gb": null,
+            "swap_gb": null,
+            "memory_scope": null,
+            "memory_release": null,
+            "time_to_video": null,
+            "held": {
+              "median_window_fps": 37.05,
+              "worst_window_fps": 32.36,
+              "sessions": 3,
+              "memory": {
+                "metric": "pss",
+                "start_mib": 932,
+                "end_mib": 927,
+                "growth_mib": 0,
+                "budget_mib": 92
+              }
+            }
+          },
+          "expression-2": {
+            "fps": 44,
+            "x_realtime": 2.2,
+            "realtime": true,
+            "measured_on": "2026-09-27",
+            "release": "expression2-android 0.5.2",
+            "clip": {
+              "id": "5683-32865-0012",
+              "seconds": 21.51
+            },
+            "peak_ram_gb": null,
+            "peak_gpu_gb": null,
+            "swap_gb": null,
+            "memory_scope": null,
+            "memory_release": null,
+            "time_to_video": null,
+            "held": {
+              "median_window_fps": 44.8,
+              "worst_window_fps": 37.33,
+              "sessions": 3,
+              "memory": {
+                "metric": "pss",
+                "start_mib": 752,
+                "end_mib": 785,
+                "growth_mib": 34,
+                "budget_mib": 75
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "web-sustained",
+        "label": "Web browser (WebGPU) · held 10 min",
+        "hardware": "Chrome on Apple M4",
+        "published": true,
+        "sustained": true,
+        "cells": {
+          "essence-2": {
+            "fps": 54,
+            "x_realtime": 2.16,
+            "realtime": true,
+            "measured_on": "2026-09-27",
+            "release": "web viewer",
+            "clip": {
+              "id": "varied1800s-heldout",
+              "seconds": 1800.25
+            },
+            "peak_ram_gb": null,
+            "peak_gpu_gb": null,
+            "swap_gb": null,
+            "memory_scope": null,
+            "memory_release": null,
+            "time_to_video": null,
+            "held": {
+              "median_window_fps": 54.37,
+              "worst_window_fps": 50,
+              "sessions": 3,
+              "memory": {
+                "metric": "phys_footprint",
+                "start_mib": 3151,
+                "end_mib": 3096,
+                "growth_mib": -55,
+                "budget_mib": 315
+              }
+            }
+          },
+          "expression-2": {
+            "fps": 41,
+            "x_realtime": 2.05,
+            "realtime": true,
+            "measured_on": "2026-09-25",
+            "release": "web viewer",
+            "clip": {
+              "id": "varied1800s-heldout",
+              "seconds": 1800.25
+            },
+            "peak_ram_gb": null,
+            "peak_gpu_gb": null,
+            "swap_gb": null,
+            "memory_scope": null,
+            "memory_release": null,
+            "time_to_video": null,
+            "held": {
+              "median_window_fps": 41.6,
+              "worst_window_fps": 41.27,
+              "sessions": 4
+            }
+          }
+        }
+      }
+    ]
+  }
+}

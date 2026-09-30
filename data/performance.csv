@@ -1,0 +1,31 @@
+row_id,runs_on,hardware,model,x_realtime,realtime,sustained,release,measured_on,clip_seconds
+cloud-gpu,Cloud API · GPU,NVIDIA RTX 4090,essence-2,4.16,true,false,cloud API,2026-09-27,28.42
+cloud-gpu,Cloud API · GPU,NVIDIA RTX 4090,expression-2,17.0,true,false,cloud API,2026-09-23,28.42
+apple-serve,Cloud API · Apple silicon,Apple M4 Max,essence-2,2.84,true,false,cloud API,2026-09-26,28.42
+apple-serve,Cloud API · Apple silicon,Apple M4 Max,expression-2,5.55,true,false,cloud API,2026-09-23,28.42
+cloud-cpu,Cloud API · CPU,x86 server CPU,essence-2,1.12,true,false,cloud API,2026-09-25,28.42
+cloud-cpu,Cloud API · CPU,x86 server CPU,expression-2,1.35,true,false,cloud API,2026-09-24,28.42
+macos-m4,macOS · CLI,Apple M4,essence-2,4.24,true,false,CLI 2.8.1,2026-09-27,28.42
+macos-m4,macOS · CLI,Apple M4,expression-2,8.4,true,false,CLI 2.8.1,2026-09-27,28.42
+python-macos,macOS · Python,Apple M4,essence-2,6.96,true,false,bithuman 2.11.12,2026-09-25,28.42
+python-macos,macOS · Python,Apple M4,expression-2,8.45,true,false,bithuman 2.11.12,2026-09-25,28.42
+macos-sdk,macOS · Swift package,Apple M4,essence-2,4.8,true,false,Swift package 2.15.0,2026-09-24,28.42
+macos-sdk,macOS · Swift package,Apple M4,expression-2,8.85,true,false,Swift package 2.15.0,2026-09-24,28.42
+linux-cpu,Linux · CLI,Intel Core i7-13700F (x86_64),essence-2,2.0,true,false,CLI 2.8.1,2026-09-27,28.42
+linux-cpu,Linux · CLI,Intel Core i7-13700F (x86_64),expression-2,2.2,true,false,CLI 2.8.1,2026-09-27,28.42
+python-linux,Linux · Python,Intel Core i7-13700F (x86_64),essence-2,1.96,true,false,bithuman 2.11.13,2026-09-26,28.42
+python-linux,Linux · Python,Intel Core i7-13700F (x86_64),expression-2,2.35,true,false,bithuman 2.11.13,2026-09-26,28.42
+python-windows,Windows · Python,"Intel Core i7-13700F (x86_64), 8 threads",essence-2,1.2,true,false,bithuman 2.11.18,2026-09-29,28.42
+python-windows,Windows · Python,"Intel Core i7-13700F (x86_64), 8 threads",expression-2,1.05,true,false,bithuman 2.11.18,2026-09-29,28.42
+iphone-15,iPhone · Swift package,iPhone 15,essence-2,2.16,true,false,Swift package 2.17.3,2026-09-27,28.42
+iphone-15,iPhone · Swift package,iPhone 15,expression-2,5.55,true,false,Swift package 2.18.0,2026-09-27,16.285
+android-s25plus,Android,Samsung Galaxy S25+,essence-2,2.08,true,false,essence2-android 0.7.0,2026-09-25,16.285
+android-s25plus,Android,Samsung Galaxy S25+,expression-2,2.4,true,false,expression2-android 0.4.10,2026-09-23,21.51
+web,Web browser (WebGPU),Chrome on Apple M4,essence-2,1.72,true,false,web viewer,2026-09-27,28.42
+web,Web browser (WebGPU),Chrome on Apple M4,expression-2,1.95,true,false,web viewer,2026-09-27,28.42
+iphone-15-sustained,iPhone · Swift package · held 10 min,iPhone 15,essence-2,1.32,true,true,Swift package 2.15.0,2026-09-25,28.42
+iphone-15-sustained,iPhone · Swift package · held 10 min,iPhone 15,expression-2,5.15,true,true,Swift package 2.15.0,2026-09-25,16.285
+android-s25plus-sustained,Android · held 10 min,Samsung Galaxy S25+,essence-2,1.48,true,true,essence2-android 0.8.1,2026-09-27,28.42
+android-s25plus-sustained,Android · held 10 min,Samsung Galaxy S25+,expression-2,2.2,true,true,expression2-android 0.5.2,2026-09-27,21.51
+web-sustained,Web browser (WebGPU) · held 10 min,Chrome on Apple M4,essence-2,2.16,true,true,web viewer,2026-09-27,1800.25
+web-sustained,Web browser (WebGPU) · held 10 min,Chrome on Apple M4,expression-2,2.05,true,true,web viewer,2026-09-25,1800.25
