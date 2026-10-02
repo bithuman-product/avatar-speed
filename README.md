@@ -1,5 +1,7 @@
 # avatar-speed
 
+[![Discord](https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=white)](https://discord.gg/x3tMhJvX4X) Questions, demos and challenges: [join the bitHuman Discord](https://discord.gg/x3tMhJvX4X).
+
 Real-time avatar render speed, by device: the numbers bitHuman publishes at
 [docs.bithuman.ai/performance](https://docs.bithuman.ai/performance), as a CSV and a JSON
 snapshot you can cite, diff and load into anything.
